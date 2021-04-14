@@ -1,0 +1,27 @@
+﻿<Window x:Class="Hotel1.FormToOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hotel1"
+        mc:Ignorable="d"
+        Title="FormToOrder" Height="400" Width="800">
+    <Grid x:Name="Form">
+        <Label FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0">Оформление Клиента</Label>
+        <Label FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70,50,0,0">Данные клтента</Label>
+        <TextBox x:Name="Полное_имя" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Margin="20,80,0,0"/>
+        <TextBox x:Name="Пасопортный_номер" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Margin="20,130,0,0"/>
+        <TextBox x:Name="Телефонный_номер" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Margin="20,180,0,0"/>
+        <Label FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,50,0,0">Заполнение карточки номера</Label>
+        <Label FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,70,0,0">Выбор номера</Label>
+        <ComboBox x:Name="Rooms" Width="200" Height="25" VerticalAlignment="Top" Margin="0,100,0,0"/>
+        <CheckBox x:Name="Food" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="-140,140,0,0" IsThreeState="True" IsChecked="True" Height="20" Content="Еда" />
+        <CheckBox x:Name="Services" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="-100,170,0,0" IsThreeState="True" IsChecked="True" Height="20" Content="Доп.Услуги" />
+        <TextBox x:Name="Количество_проживающих" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="25" Margin="0,190,0,0"/>
+        <Label FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="570,70,0,0">Выбор даты заезда</Label>
+        <DatePicker Name="dateIn" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,100,100,0" IsDropDownOpen="True" SelectedDateFormat="Short" />
+        <Label FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="570,130,0,0">Выбор даты выезда</Label>
+        <DatePicker Name="dateOut" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,160,100,0" IsDropDownOpen="True" SelectedDateFormat="Short" />
+        <Button x:Name="Confirm" HorizontalAlignment="Center" VerticalAlignment="Center" Width="125" Height="30" Margin="0, 200, 0, 0" Click="Confirm_Click">Оформить</Button>
+    </Grid>
+</Window>
