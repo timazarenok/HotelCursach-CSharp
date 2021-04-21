@@ -14,6 +14,13 @@
             <Button x:Name="OrderClient" Width="150" Height="30" Click="OrderClient_Click">
                 Оформить клиента
             </Button>
+            <Button x:Name="NumbersOtchet" Width="150" Height="30" Click="NumbersOtchet_Click">
+                Отчет по номерам
+            </Button>
+            <Button x:Name="PersonsLive" Width="150" Height="30" Click="PersonsLive_Click">
+                Отчет по проживающих
+            </Button>
         </StackPanel>
+        <Button x:Name="Exit" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,0,0,50" Click="Exit_Click">Выход</Button>
     </Grid>
 </Window>

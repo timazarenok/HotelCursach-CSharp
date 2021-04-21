@@ -58,6 +58,14 @@
     <Compile Include="FormToOrder.xaml.cs">
       <DependentUpon>FormToOrder.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Numbers.cs" />
+    <Compile Include="NumbersOtchetWindow.xaml.cs">
+      <DependentUpon>NumbersOtchetWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Persons.cs" />
+    <Compile Include="PersonsLiveWindow.xaml.cs">
+      <DependentUpon>PersonsLiveWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Registration.xaml.cs">
       <DependentUpon>Registration.xaml</DependentUpon>
     </Compile>
@@ -88,6 +96,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="NumbersOtchetWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonsLiveWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Registration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

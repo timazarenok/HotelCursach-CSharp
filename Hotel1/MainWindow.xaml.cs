@@ -36,5 +36,24 @@ namespace Hotel1
             FormToOrder form = new FormToOrder();
             form.Show();
         }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Registration reg = new Registration();
+            reg.Show();
+            Close();
+        }
+
+        private void NumbersOtchet_Click(object sender, RoutedEventArgs e)
+        {
+            NumbersOtchetWindow numbers = new NumbersOtchetWindow();
+            numbers.Show();
+        }
+
+        private void PersonsLive_Click(object sender, RoutedEventArgs e)
+        {
+            PersonsLiveWindow liveWindow = new PersonsLiveWindow();
+            liveWindow.Show();
+        }
     }
 }

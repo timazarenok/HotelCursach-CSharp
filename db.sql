@@ -12,6 +12,7 @@ id int Identity(1,1) primary key,
 number int,
 price decimal(5,2)
 )
+
 insert into Rooms values (11, 200)
 select * from Rooms;
 
@@ -37,6 +38,8 @@ insert into RoomCard values(1, 1, 1, 1, 3)
 select * from RoomCard join Rooms on RoomCard.id = id_room
 
 SELECT * FROM Rooms WHERE NOT EXISTS (SELECT * FROM RoomCard WHERE Rooms.id=RoomCard.id_room);
+	SELECT full_name, passport_number, telephone_number, number, price, food, [services], amount FROM Rooms join RoomCard on Rooms.id=RoomCard.id_room 
+	join ClientCard on ClientCard.id = id_client_card;
 
 create table Dates (
 id int Identity(1,1),

@@ -21,3 +21,8 @@ C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\RoomsAdd.g.cs
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\RoomsAdd.baml
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\FormToOrder.g.cs
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\FormToOrder.baml
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\App.baml
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\NumbersOtchetWindow.g.cs
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\NumbersOtchetWindow.baml
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\PersonsLiveWindow.g.cs
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\PersonsLiveWindow.baml
