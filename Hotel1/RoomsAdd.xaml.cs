@@ -34,7 +34,7 @@ namespace Hotel1
 
         private void Add_Click(object sender, RoutedEventArgs e)
         {
-            if(SqlDB.Command($"insert into Rooms values({Convert.ToInt32(Number.Text)}, {Convert.ToDouble(Price.Text)})"))
+            if(SqlDB.Command($"insert into Rooms values({Convert.ToInt32(Number.Text)}, {Amount.Text}, {Convert.ToDouble(Price.Text)})"))
             {
                 MessageBox.Show("Номер добавлен");
             }

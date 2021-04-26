@@ -22,7 +22,6 @@ namespace Hotel1
     /// </summary>
     public partial class Registration : Window
     {
-        const string connectionString = @"Server=DANIKDRANIK\TEW_SQLEXPRESS;Database=Hotel;Trusted_Connection=True;";
         public Registration()
         {
             InitializeComponent();

@@ -12,8 +12,9 @@
         <TextBox Name="Number" PreviewTextInput="NumberValidationTextBox" Width="150" Height="25" Margin="0,70,200,250"/>
 
         <Label Height="24" Width="140" Content="Цена комнаты" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="150,40,0,280"/>
-        <TextBox Name="Price" PreviewTextInput="NumberValidationTextBox" Width="150" Height="25" Margin="180,70,0,250"/>
-
-        <Button x:Name="Add" Width="120" Height="25" Margin="00,100,0,170" Click="Add_Click">Создать</Button>
+        <TextBox Name="Price" PreviewTextInput="NumberValidationTextBox" Width="150" Height="25" Margin="120,70,0,250"/>
+        <Label Height="24" Width="170" Content="Количество проживающих" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,150,0,250"/>
+        <TextBox Name="Amount" PreviewTextInput="NumberValidationTextBox" Width="150" Height="25" Margin="0,150,0,200"/>
+        <Button x:Name="Add" Width="120" Height="25" Margin="00,220,0,170" Click="Add_Click">Создать</Button>
     </Grid>
 </Window>

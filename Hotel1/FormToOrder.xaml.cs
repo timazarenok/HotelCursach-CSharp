@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -73,6 +74,20 @@ namespace Hotel1
                 return false;
             }
         }
+        private bool CheckRommAmount(int room_id, int amount)
+        {
+            DataTable dt = SqlDB.Select($"select * from Rooms where id={room_id}");
+            int value = Convert.ToInt32(dt.Rows[0]["amount"]);
+            if(value < amount)
+            {
+                MessageBox.Show("Количество проживающих не соответствует вместимости номера");
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
         private void Confirm_Click(object sender, RoutedEventArgs e)
         {
             string message = "";
@@ -84,7 +99,7 @@ namespace Hotel1
                 int services = Convert.ToInt32(Services.IsChecked);
                 int amount = Convert.ToInt32(Количество_проживающих.Text);
                 int room_id = SqlDB.GetId($"select id from Rooms where number = {Convert.ToInt32(Rooms.SelectedItem)}");
-                if(SqlDB.Command($"insert into RoomCard values ({room_id}, {client_id}, {food}, {services}, {amount})"))
+                if (SqlDB.Command($"insert into RoomCard values ({room_id}, {client_id}, {food}, {services}, {amount})") && CheckRommAmount(room_id, amount))
                 {
                     message += "Комната оформлена \n";
                     int room_card_id = SqlDB.GetId($"SELECT TOP 1 id FROM RoomCard ORDER BY id DESC");

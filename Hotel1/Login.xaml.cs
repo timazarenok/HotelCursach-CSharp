@@ -22,7 +22,6 @@ namespace Hotel1
     /// </summary>
     public partial class Login : Window
     {
-        const string connectionString = @"Server=DANIKDRANIK\TEW_SQLEXPRESS;Database=Hotel;Trusted_Connection=True;";
         public Login()
         {
             InitializeComponent();
@@ -48,7 +47,7 @@ namespace Hotel1
             DataTable dataTable = new DataTable("database");
             try
             {
-                SqlConnection connection = new SqlConnection(connectionString);
+                SqlConnection connection = new SqlConnection(SqlDB.connectionString);
                 connection.Open();
                 SqlCommand command = connection.CreateCommand();
                 command.CommandText = selectString; 
