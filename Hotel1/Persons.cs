@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel1
 {
-    class Persons
+    public class Persons
     {
         public string Full_Name { get; set; }
         public string PassportNumber { get; set; }

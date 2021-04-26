@@ -26,3 +26,10 @@ C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\NumbersOtchetWindow.g.cs
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\NumbersOtchetWindow.baml
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\PersonsLiveWindow.g.cs
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\PersonsLiveWindow.baml
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Hotel1.csproj.ResolveComReference.cache
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.LCC11.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.MsoEuro.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.MsoScreenRecorderLib.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.otkloadr.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.TASKLAUNCHLib.dll
