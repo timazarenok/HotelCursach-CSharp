@@ -51,7 +51,7 @@ namespace Hotel1
                 SqlConnection connection = new SqlConnection(connectionString);
                 connection.Open();
                 SqlCommand command = connection.CreateCommand();
-                command.CommandText = selectString;
+                command.CommandText = selectString; 
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 adapter.Fill(dataTable);
                 return dataTable;

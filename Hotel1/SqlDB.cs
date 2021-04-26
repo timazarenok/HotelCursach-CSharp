@@ -11,7 +11,7 @@ namespace Hotel1
 {
     static class SqlDB
     {
-        const string connectionString = @"Server=DANIKDRANIK\TEW_SQLEXPRESS;Database=Hotel;Trusted_Connection=True;";
+        const string connectionString = @"Server=DESKTOP-VLADISL;Database=Hotel;Trusted_Connection=True;";
         public static bool Command(string expression)
         {
             SqlConnection connection = new SqlConnection(connectionString);
