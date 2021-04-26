@@ -21,6 +21,7 @@ C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\RoomsAdd.g.cs
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\RoomsAdd.baml
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\FormToOrder.g.cs
 C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\FormToOrder.baml
+<<<<<<< HEAD
 C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\bin\Debug\Hotel1.exe.config
 C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\bin\Debug\Hotel1.exe
 C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\bin\Debug\Hotel1.pdb
@@ -44,3 +45,24 @@ C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\
 C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\Hotel1.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\Hotel1.exe
 C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\Hotel1.pdb
+=======
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\App.baml
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\NumbersOtchetWindow.g.cs
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\NumbersOtchetWindow.baml
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\PersonsLiveWindow.g.cs
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\PersonsLiveWindow.baml
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Hotel1.csproj.ResolveComReference.cache
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.LCC11.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.MsoEuro.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.MsoScreenRecorderLib.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.otkloadr.dll
+C:\Users\Даник\Desktop\Hotel1\Hotel1\obj\Debug\Interop.TASKLAUNCHLib.dll
+>>>>>>> 7e462bc05d872f1eb2d66c1dfac1318ce52a371a
+C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\Hotel1.csproj.ResolveComReference.cache
+C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\NumbersOtchetWindow.g.cs
+C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\PersonsLiveWindow.g.cs
+C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\App.baml
+C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\NumbersOtchetWindow.baml
+C:\Users\Lenovo\OneDrive\Рабочий стол\HotelCursach-CSharp\Hotel1\obj\Debug\PersonsLiveWindow.baml

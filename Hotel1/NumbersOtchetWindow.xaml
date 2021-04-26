@@ -1,0 +1,14 @@
+﻿<Window x:Class="Hotel1.NumbersOtchetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hotel1"
+        mc:Ignorable="d"
+        Title="NumbersOtchetWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Empty" Width="150" Height="30" Margin="0,10,150,0" VerticalAlignment="Top" Click="Empty_Click">Свободные номера</Button>
+        <Button x:Name="Closed" Width="150" Height="30" Margin="250,10,0,0" VerticalAlignment="Top" Click="Closed_Click">Занятые номера</Button>
+        <DataGrid x:Name="Table" AutoGenerateColumns="True" Width="400" Margin="50, 50, 0, 20"/>
+    </Grid>
+</Window>

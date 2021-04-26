@@ -4,6 +4,15 @@
              xmlns:local="clr-namespace:Hotel1"
              StartupUri="Registration.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Verdana" />
+            <Setter Property="Background" Value="Black" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="10" />
+        </Style>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="#bde0fe" />
+        </Style>
     </Application.Resources>
 </Application>
