@@ -7,9 +7,11 @@
         mc:Ignorable="d"
         Title="InfoWindow" Height="1250" Width="800">
     <Grid>
+        <ScrollViewer>
+        <StackPanel>
         <Label FontWeight="Bold" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top">Руководство по использованию</Label>
         <Label FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0">Добавление данных</Label>
-        <TextBlock TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,250" Width="700">
+        <TextBlock TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="700">
             Добавление данных в базу данных осуществляется с помощью форм и ввода данных в текстовые блоки.
             <LineBreak/>
             <LineBreak/>
@@ -53,11 +55,13 @@
             данные кликнта (Номер паспорта, ФИО, тел.номер). Данные будут сохранены только после заполнения всей формы, 
             иначе будет ошибка и карточка клиента не заполгниться.
         </TextBlock>
-        <Label FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,900,0,0">Экспорт отчетов</Label>
-        <TextBlock Margin="0,800,0,0" TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Width="700">
+        <Label FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0">Экспорт отчетов</Label>
+        <TextBlock Margin="0,0,0,0" TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Width="700">
             Экспорт данных осуществляется в EXCEL. Чтобы сделать выписку отчета по проживающим, надо нажать на кнопку "Отчет по проживающим"
             и Вам откроется соответствующее окно с отчетом. Далее надо нажать на кнопку "Отчет в EXCEL" и программа автоматически откроет вам эту
             таблицн в Excel.
         </TextBlock>
+        </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
