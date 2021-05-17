@@ -63,6 +63,9 @@
     <Compile Include="FormToOrder.xaml.cs">
       <DependentUpon>FormToOrder.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InfoWindow.xaml.cs">
+      <DependentUpon>InfoWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Models\Numbers.cs" />
     <Compile Include="NumbersOtchetWindow.xaml.cs">
       <DependentUpon>NumbersOtchetWindow.xaml</DependentUpon>
@@ -79,6 +82,10 @@
     </Compile>
     <Compile Include="SqlDB.cs" />
     <Page Include="FormToOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InfoWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

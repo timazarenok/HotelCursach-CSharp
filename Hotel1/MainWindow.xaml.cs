@@ -55,5 +55,11 @@ namespace Hotel1
             PersonsLiveWindow liveWindow = new PersonsLiveWindow();
             liveWindow.Show();
         }
+
+        private void Info_Click(object sender, RoutedEventArgs e)
+        {
+            InfoWindow window = new InfoWindow();
+            window.Show();
+        }
     }
 }

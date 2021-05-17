@@ -20,6 +20,7 @@
             <Button x:Name="PersonsLive" Width="150" Height="30" Click="PersonsLive_Click">
                 Отчет по проживающих
             </Button>
+            <Button x:Name="Info" Width="150" Height="30" Click="Info_Click">Справка</Button>
         </StackPanel>
         <Button x:Name="Exit" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,0,0,50" Click="Exit_Click">Выход</Button>
     </Grid>
