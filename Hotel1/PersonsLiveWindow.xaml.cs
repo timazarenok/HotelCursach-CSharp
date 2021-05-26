@@ -22,7 +22,7 @@ namespace Hotel1
         public void SetPersons()
         {
             rooms = new List<Persons>();
-            DataTable dt = SqlDB.Select("SELECT full_name, passport_number, telephone_number, number, price, food, [services], amount FROM Rooms join RoomCard on Rooms.id = RoomCard.id_room join ClientCard on ClientCard.id = id_client_card; ");
+            DataTable dt = SqlDB.Select("SELECT full_name, passport_number, telephone_number, number, price, food, [services], Rooms.amount FROM Rooms join RoomCard on Rooms.id = RoomCard.id_room join ClientCard on ClientCard.id = id_client_card; ");
             foreach (DataRow dr in dt.Rows)
             {
                 rooms.Add(new Persons()
